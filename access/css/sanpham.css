@@ -13,9 +13,6 @@
     padding-top: 5px;
 }
 
-
-
-
 /* body */
 
 .body{
@@ -36,6 +33,7 @@ u{
 .fontweight__bolder{
     font-weight: bold;
 }
+
 /* col_left */
 a{
     color: var(--black);
@@ -88,12 +86,14 @@ li{
     background-color: var(--btn-color);
     color: #fff;
 }
+
 /* col-right */
 #Product__header-title{
     color: var(--darkbrown);
     font-size: 2.4rem;
 
 }
+
 /* PRODUCT */
 .row{
     justify-content: center;
