@@ -35,18 +35,18 @@
                     <div class="carousel-inner">
                       <a href="./trangsp.html">
                         <div class="carousel-item active" data-bs-interval="5000">
-                          <img src="./access/Img/slider.png" class="d-block w-100" alt="">
+                          <img src="./access/Img/slider_1.jpg" class="d-block w-100" alt="">
 
                         </div>
                       </a>
                       <a href="./trangsp.html">
                         <div class="carousel-item" data-bs-interval="5000">
-                          <img src="./access/Img/slider2.png" class="d-block w-100" alt="">
+                          <img src="./access/Img/slider_2.jpg" class="d-block w-100" alt="">
                         </div>
                       </a>
                       <a href="./trangsp.html">
                         <div class="carousel-item" data-bs-interval="5000">
-                          <img src="./access/Img/slider3.png" class="d-block w-100" alt="">
+                          <img src="./access/Img//slider_3.png" class="d-block w-100" alt="">
                         </div>
                       </a>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -207,5 +207,20 @@
     <script src="./access/js/2nd_slider.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./access/js/base.js"></script>
+
+    <script>
+        window.onscroll = () => {
+        let pre_header = document.getElementsByClassName("pre-header")
+        let header = document.getElementsByClassName("header")
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            pre_header[0].classList.add('pre-header-scrolled')
+            header[0].classList.add('header-scrolled')
+            }
+        else {
+            pre_header[0].classList.remove('pre-header-scrolled')
+            header[0].classList.remove('header-scrolled')
+             }
+}
+    </script>
 </body>
 </html>

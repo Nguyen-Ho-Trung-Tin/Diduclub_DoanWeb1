@@ -123,7 +123,7 @@ a{
 
 /* slider */
 .header__slider{
-    margin-top: 92px;
+    /* margin-top: 92px; */
     width: 100%;
     overflow: hidden;
     
@@ -537,18 +537,18 @@ a{
     list-style-type: none;
     padding: 0;
 }
-.footer ul li {
+/* .footer ul li {
     margin: 5px 0;
-}
+} */
 .footer__header{
     color: var(--main-color);
     margin: 20px 0;
     font-size: 2.5rem;
 }
-.footer a{
+/* .footer a{
     color: var(--text-color);
     font-size: 1.4rem;
-}
+} */
 .footer p{
     font-size: 1.4rem;
 }
