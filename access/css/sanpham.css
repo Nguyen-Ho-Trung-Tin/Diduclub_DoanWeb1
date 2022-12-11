@@ -290,7 +290,7 @@ li{
 
 .home-product-item__sale-off-percent{
     margin: 2px 0;
-    color: #ee4d2d;
+    color: rgb(255, 82, 82);
     font-weight: 900;
     font-size: 1.4rem;
     line-height: 1.4rem;

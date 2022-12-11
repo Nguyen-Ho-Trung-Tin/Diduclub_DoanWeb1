@@ -2,9 +2,9 @@
     --white-color: #fff;
     --black-color:#000;
     --text-color:rgb(0, 0, 0);
-    --liked-color: orange;
-    --discount-color: rgba(255,216,64,0.94);
-    --main-color:#000;
+    --liked-color: rgb(0, 0, 0);
+    --discount-color: rgba(0, 0, 0, 0.94);
+    --main-color:#000000;
     --background-color:#d2beb4;
     --btn-color:#6b4932;/* màu chữ slider 2*/
     --red-color:red;  
