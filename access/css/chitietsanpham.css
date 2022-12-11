@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 a{
-  color: var(--black);
+  color: var(--white-color);
   text-decoration: none;
 }
 .item.active {

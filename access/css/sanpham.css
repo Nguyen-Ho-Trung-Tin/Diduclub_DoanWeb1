@@ -91,7 +91,7 @@ li{
 #Product__header-title{
     color: var(--darkbrown);
     font-size: 2.4rem;
-
+    font-weight: bold;
 }
 
 /* PRODUCT */
@@ -145,7 +145,7 @@ li{
 .home-product-item__name{
     margin: 10px;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: bold;
     color: var(--text-color);
     line-height: 1.8rem;
     height: 3.6rem;
@@ -163,6 +163,7 @@ li{
 
 .home-product-item__price-no-discount{
     font-size: 1.6rem;
+    font-weight: bold;
     color: black;
     margin-left: 5px;
 }
@@ -182,6 +183,7 @@ li{
 
 .home-product-item__price-current{
     font-size: 1.6rem;
+    font-weight: bold;
     color: var(--red-color);
     margin-left: 5px;
 }   
