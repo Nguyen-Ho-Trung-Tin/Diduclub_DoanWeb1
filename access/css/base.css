@@ -1,7 +1,7 @@
 :root{
     --white-color: #fff;
     --black-color:#000;
-    --text-color:#333;
+    --text-color:rgb(0, 0, 0);
     --liked-color: orange;
     --discount-color: rgba(255,216,64,0.94);
     --main-color:#b8a898;
