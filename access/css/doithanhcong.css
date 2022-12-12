@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(to right, #724f36e4, #D2BEB4);
+    background: linear-gradient(to right, #000, #fff);
     font-size: 1.6rem;
 }
 .h2, h2 {
@@ -65,7 +65,7 @@ button{
     border-radius: 5px;
     border: none;
     color: white;
-    background-color: #6B4932;
+    background-color: #000;
     padding:auto;
     min-width: 250px;
     height: 35px;
